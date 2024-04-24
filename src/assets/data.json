@@ -1,0 +1,53 @@
+ [
+  {
+    "id": "1",
+    "name": "Cerezas",
+    "image": "../../../assets/img/1.png",
+    "description":"Fruta de temporada",
+    "type": "Fruta",
+    "price": 19.99,
+    "discount": 10,
+    "quantity": 2
+  },
+  {
+    "id": "2",
+    "name": "Fresas",
+    "image": "../../../assets/img/2.png",
+    "description":"Fruta de temporada",
+    "type": "Fruta",
+    "price": 99.99,
+    "discount": 5,
+    "quantity": 4
+  },
+  {
+    "id": "3",
+    "name": "Pera",
+    "image": "../../../assets/img/3.png",
+    "description":"Fruta de temporada",
+    "type": "Fruta",
+    "price": 200.00,
+    "discount": 15,
+    "quantity": 0
+  },
+  {
+    "id": "4",
+    "name": "Sandia",
+    "image": "../../../assets/img/4.png",
+    "description":"Fruta de final detemporada",
+    "type": "Fruta",
+    "price": 499.99,
+    "discount": 15,
+    "quantity": 0
+  },
+  {
+    "id": "5",
+    "name": "Banana",
+    "image": "../../../assets/img/5.png",
+    "description":"Traidas de Ecuador",
+    "type": "Fruta",
+    "price": 300.00,
+    "discount": 12,
+    "quantity": 0
+  }
+ 
+]

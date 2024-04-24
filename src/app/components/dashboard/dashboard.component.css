@@ -1,0 +1,117 @@
+/*Cuadricula*/
+* {
+    box-sizing: border-box;
+  }
+
+ 
+
+  .barra{
+    width: 650px;
+    background-color: #ffffff70;
+    position: fixed;
+    z-index: 100;
+    top: 2%;
+    left: 30%;
+    
+  }
+
+
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 6px;
+    background-color: #282c28;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #48e462;}
+
+    /* Main Body */
+.cart-item-thumb {
+  display: block;
+  width: 10rem
+}
+
+.cart-item-thumb>img {
+  display: block;
+  width: 100%
+}
+.font-weight-semibold {
+  font-weight: 600 !important;
+}
+
+.product-card-title {
+  display: block;
+  margin-bottom: .75rem;
+  padding-bottom: .875rem;
+  border-bottom: 1px dashed #e2e2e2;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* Side Bar */
+
+img {
+max-width: 100%;
+}
+
+.product-info .connect {
+margin: 15px 0 5px 0;
+}
+
+.product-info .connect button {
+margin-right: 15px;
+}
+
+
+
+/* Zoom Image */
+.zoom {
+background-color: none;
+transition: transform .2s; /* Animation */
+
+margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(1.5);
+}
+
+   
+
+.oc{
+  margin-top: 5px;
+  padding: 2px;
+  background-color: rgb(127, 214, 255);
+  border: none;
+  margin-right: 10px;
+}
+
+
+    

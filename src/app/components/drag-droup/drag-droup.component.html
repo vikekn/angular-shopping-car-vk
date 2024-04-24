@@ -1,0 +1,24 @@
+<div class="container">
+   <h2>Fruta</h2>
+   <div 
+   cdkDropList 
+   #frutaList="cdkDropList" 
+   [cdkDropListData]="FrutaList"
+   [cdkDropListConnectedTo]="[doneFrutaList]" 
+   class="movie-list" 
+   (cdkDropListDropped)="onDrop($event)">
+   <div class="movie-block" *ngFor="let frutaList of FrutaList" cdkDrag>{{frutaList}}</div>
+</div>
+</div>
+<div class="container">
+   <h2>Lista de compras </h2>
+   <div 
+   cdkDropList 
+   #doneFrutaList="cdkDropList" 
+   [cdkDropListData]="FrutaRecordar"
+   [cdkDropListConnectedTo]="[frutaList]" 
+   class="movie-list" 
+   (cdkDropListDropped)="onDrop($event)">
+   <div class="movie-block" *ngFor="let frutaRecordar of FrutaRecordar" cdkDrag>{{frutaRecordar}}</div>
+</div>
+</div>
