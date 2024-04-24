@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` or `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and
+Run `ng serve` or in VS Code `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and
 `ng serve --o`
 for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
